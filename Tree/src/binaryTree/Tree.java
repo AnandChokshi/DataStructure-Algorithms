@@ -3,8 +3,7 @@ package binaryTree;
 import java.util.Stack;
 
 public class Tree {
-	private Node root;
-	private int size = 0;
+	public Node root;
 
 	public Tree() {
 		root = null;
@@ -39,7 +38,6 @@ public class Tree {
 
 	// insert node in tree (Duplicate Accepted)
 	public void insert(int iData, double dData) {
-		size++;
 		Node newNode = new Node(iData, dData);
 		// if root is null then make newNode root
 		if (root == null) {

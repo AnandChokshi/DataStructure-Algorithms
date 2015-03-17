@@ -17,7 +17,38 @@ public class TreeApp {
 		tree.insert(90, 110);
 		
 		tree.displayTree();
-		System.out.println(tree.delete(100));
-		tree.displayTree();
+		
+//		Tree tree2 = new Tree();
+//		
+//		tree2.insert(50, 100);
+//		tree2.insert(30, 54);
+//		tree2.insert(47, 200);
+//		tree2.insert(100, 100);
+//		tree2.insert(15, 30);
+//		tree2.insert(150, 9);
+//		tree2.insert(200, 40);
+//		tree2.insert(5, 33);
+//		tree2.insert(46, 0);
+//		tree2.insert(90, 110);
+		System.out.println("-----------------------------------------------");
+		//System.out.println(tree.delete(100));
+		//tree.displayTree();
+		
+		//TraversWithoutRecursion.inOder(tree);
+		//TraversWithoutRecursion.preOrder(tree);
+		
+		//BFS_LevelOrderSearch.printGivenLevel(tree.root, 4);
+		//BFS_LevelOrderSearch.levelOrder(tree.root);
+		
+		//System.out.println(HeightTree.heightRecursive(tree.root));
+		//System.out.println(HeightTree.heightIterative(tree.root));
+		
+		//System.out.println(SizeOfTree.sizeRecursive(tree.root));
+		//System.out.println(SizeOfTree.sizeIterative(tree.root));
+		
+		//System.out.println(CompareTree.sameTree(tree.root, tree2.root));
+		
+//		MirrorTree.mirrorRecursive(tree.root);
+//		tree.displayTree();
 	}
 }
