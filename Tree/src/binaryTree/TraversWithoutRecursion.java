@@ -9,6 +9,7 @@ public class TraversWithoutRecursion {
 			System.out.println("Tree is Empty");
 			return;
 		}
+		
 		Stack<Node> treeStack = new Stack<Node>();
 		System.out.println();
 		while (!treeStack.isEmpty() || node != null) {
@@ -29,6 +30,7 @@ public class TraversWithoutRecursion {
 			System.out.println("Tree is Empty");
 			return;
 		}
+		
 		Stack<Node> treeStack = new Stack<Node>();
 		System.out.println();
 		treeStack.push(tree.root);
