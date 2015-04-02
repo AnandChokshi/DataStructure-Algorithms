@@ -60,6 +60,8 @@ public class TreeApp {
 		
 		//SingleLCA.lcaRecursive(150, 90, tree.root);
 		
-		System.out.println(CountLeaf.leafCountRecursive(tree.root));
+		//System.out.println(CountLeaf.leafCountRecursive(tree.root));
+		
+		System.out.println(BST_True_False.isBSTRecursive(tree.root, Integer.MIN_VALUE, Integer.MAX_VALUE));
 	}
 }
