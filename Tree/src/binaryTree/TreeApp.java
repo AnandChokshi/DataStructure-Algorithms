@@ -58,6 +58,8 @@ public class TreeApp {
 //		int pathLen = 0;
 //		Root_To_Leaf_Path.pathRecursive(tree.root, path, pathLen);
 		
-		SingleLCA.lcaRecursive(150, 90, tree.root);
+		//SingleLCA.lcaRecursive(150, 90, tree.root);
+		
+		System.out.println(CountLeaf.leafCountRecursive(tree.root));
 	}
 }
