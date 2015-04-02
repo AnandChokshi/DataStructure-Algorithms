@@ -1,5 +1,8 @@
 package binaryTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class TreeApp {
 	public static void main(String[] args) {
 		Tree tree = new Tree();
@@ -50,5 +53,11 @@ public class TreeApp {
 		
 //		MirrorTree.mirrorRecursive(tree.root);
 //		tree.displayTree();
+		
+//		int path[] = new int[1000];
+//		int pathLen = 0;
+//		Root_To_Leaf_Path.pathRecursive(tree.root, path, pathLen);
+		
+		SingleLCA.lcaRecursive(150, 90, tree.root);
 	}
 }

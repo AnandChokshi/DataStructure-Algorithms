@@ -219,16 +219,16 @@ public class Tree {
 		// gives prefix expression
 		if (localRoot != null) {
 			System.out.print(localRoot.iData + " ");
-			inOrder(localRoot.leftChild);
-			inOrder(localRoot.rightChild);
+			preOrder(localRoot.leftChild);
+			preOrder(localRoot.rightChild);
 		}
 	}
 
 	public void postOrder(Node localRoot) {
 		// gives postfix expression
 		if (localRoot != null) {
-			inOrder(localRoot.leftChild);
-			inOrder(localRoot.rightChild);
+			postOrder(localRoot.leftChild);
+			postOrder(localRoot.rightChild);
 			System.out.print(localRoot.iData + " ");
 		}
 	}
