@@ -65,5 +65,7 @@ public class TreeApp {
 		//System.out.println(BST_True_False.isBSTRecursive(tree.root, Integer.MIN_VALUE, Integer.MAX_VALUE));
 		
 		//BFS_LevelOrder_Spiral.levelOrder_Spiral(tree.root);
+		
+		//System.out.println(ChildrenSumProperty.childrenSumRecur(tree.root));
 	}
 }
