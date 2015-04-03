@@ -67,5 +67,7 @@ public class TreeApp {
 		//BFS_LevelOrder_Spiral.levelOrder_Spiral(tree.root);
 		
 		//System.out.println(ChildrenSumProperty.childrenSumRecur(tree.root));
+		
+		System.out.println(TreeDiameter.treeDiameterRecur(tree.root));
 	}
 }
